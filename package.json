@@ -1,0 +1,24 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/css/styles.css",
+    "deploy": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjsutton11/personal-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjsutton11/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/tjsutton11/personal-portfolio#readme",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}

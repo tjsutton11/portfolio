@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Timothy Sutton - Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body class="font-body">
+    <div>
+      <!-- wrapper -->
+      <header
+        class="bg-black border-none md:flex md:justify-end md:items-center"
+      >
+        <div class="flex items-center justify-end px-4 py-6">
+          <div class="md:hidden">
+            <!-- div containing burger menu -->
+            <button type="button" id="burger">
+              <svg
+                class="w-8 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <nav
+          class="hidden md:flex md:px-4 md:py-4 md:text-lg font-body font-thin italic"
+          id="menu"
+        >
+          <a
+            href="#"
+            class="sm:block text-center px-2 py-1 text-white hover:bg-gray-800 rounded"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="sm:block text-center px-2 py-1 text-white hover:bg-gray-800 rounded"
+            >About</a
+          >
+          <a
+            href="#"
+            class="sm:block text-center px-2 py-1 text-white hover:bg-gray-800 rounded"
+            >Projects</a
+          >
+          <a
+            href="#"
+            class="sm:block sm:pb-4 md:pb-0 text-center px-2 py-1 text-white hover:bg-gray-800 rounded"
+            >Contact</a
+          >
+        </nav>
+      </header>
+
+      <main>
+        <div
+          class="bg-hero-image bg-cover h-screen flex justify-center items-center"
+        >
+          <div
+            class=" text-white text-6xl border-solid border-4 bg-gray-800 bg-opacity-75 rounded"
+          >
+            <h1 class="px-8 pt-6 font-thin italic uppercase">Timothy Sutton</h1>
+            <p class="px-8 pb-6 font-thin italic uppercase">Web Developer</p>
+          </div>
+        </div>
+        <div
+          id="about"
+          class="h-screen bg-gray-900 flex sm:flex-col md:flex-row sm:justify-center md:justify-evenly items-center text-white font-body text-justify"
+        >
+          <div class="sm:w-1/2 md:w-1/3">
+            <!-- photo -->
+            <img
+              class="w-full h-auto border-2 border-white sm:mb-6"
+              src="images/timothy-sutton.jpg"
+              alt="Photo of Timothy Sutton"
+            />
+          </div>
+          <div class="sm:w-1/2 md:w-1/3 ld:w-1/2 lg:text-2xl">
+            <p>
+              <span class="sm:text-2xl">&#128075;</span>Hi there! My name is
+              Timothy Sutton. I'm a web developer based in Pittsburgh, PA. When
+              I'm not building websites, I enjoy spending time with my wife,
+              reading, woodworking, and photography.
+            </p>
+            <p>
+              <span class="sm:text-2xl">&#128187;</span>I have been
+              interested in web development since I was young, but only recently
+              have I began pursuing it as a career. If you are looking for a
+              custom built website for you or your business, please do not
+              hesitate to reach out. I'd love to meet and see if we would be a
+              right fit for each other.
+            </p>
+          </div>
+        </div>
+        <div class=""></div>
+      </main>
+    </div>
+
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
