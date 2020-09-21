@@ -3541,6 +3541,10 @@ video {
   background-image: url('../images/josh-rose-building-unsplash.jpg');
 }
 
+.bg-projects-image{
+  background-image: url('../images/florian-olivo-code-unsplash.jpg');
+}
+
 .from-transparent{
   --gradient-from-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -24202,6 +24206,10 @@ video {
     background-image: url('../images/josh-rose-building-unsplash.jpg');
   }
 
+  .sm\:bg-projects-image{
+    background-image: url('../images/florian-olivo-code-unsplash.jpg');
+  }
+
   .sm\:from-transparent{
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -44796,6 +44804,10 @@ video {
 
   .md\:bg-about-image{
     background-image: url('../images/josh-rose-building-unsplash.jpg');
+  }
+
+  .md\:bg-projects-image{
+    background-image: url('../images/florian-olivo-code-unsplash.jpg');
   }
 
   .md\:from-transparent{
@@ -65394,6 +65406,10 @@ video {
     background-image: url('../images/josh-rose-building-unsplash.jpg');
   }
 
+  .lg\:bg-projects-image{
+    background-image: url('../images/florian-olivo-code-unsplash.jpg');
+  }
+
   .lg\:from-transparent{
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -85988,6 +86004,10 @@ video {
 
   .xl\:bg-about-image{
     background-image: url('../images/josh-rose-building-unsplash.jpg');
+  }
+
+  .xl\:bg-projects-image{
+    background-image: url('../images/florian-olivo-code-unsplash.jpg');
   }
 
   .xl\:from-transparent{
