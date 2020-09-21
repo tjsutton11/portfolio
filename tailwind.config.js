@@ -12,6 +12,9 @@ module.exports = {
       }),
       fontFamily: {
           body: ['Nunito']
+      },
+      screens: {
+        pxl: '411px'
       }
     },
   },
