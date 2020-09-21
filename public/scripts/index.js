@@ -1,5 +1,6 @@
 const burger = document.querySelector('#burger');
 const menu = document.querySelector('#menu');
+const links = document.querySelector('.nav-links');
 let isOpen = false;
 
 burger.addEventListener('click', () => {
@@ -12,3 +13,9 @@ burger.addEventListener('click', () => {
     }
 })
 
+links.addEventListener('click', () => {
+    if(isOpen) {
+        menu.classList.add('hidden');
+        isOpen = false;
+    }
+})
