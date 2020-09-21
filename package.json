@@ -1,5 +1,5 @@
 {
-  "name": "personal-portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tjsutton11/personal-portfolio.git"
+    "url": "git+https://github.com/tjsutton11/portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tjsutton11/personal-portfolio/issues"
+    "url": "https://github.com/tjsutton11/portfolio/issues"
   },
-  "homepage": "https://github.com/tjsutton11/personal-portfolio#readme",
+  "homepage": "https://github.com/tjsutton11/portfolio#readme",
   "dependencies": {
     "tailwindcss": "^1.8.10"
   }
