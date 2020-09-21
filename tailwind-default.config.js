@@ -10,6 +10,8 @@ module.exports = {
   separator: ':',
   theme: {
     screens: {
+      sg: '380px',
+      pxl: '411px',
       sm: '640px',
       md: '768px',
       lg: '1024px',
