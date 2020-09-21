@@ -14,6 +14,7 @@ module.exports = {
           body: ['Nunito']
       },
       screens: {
+        sg: '380px',
         pxl: '411px'
       }
     },
