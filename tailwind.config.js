@@ -12,7 +12,8 @@ module.exports = {
         'projects-image': "url('../images/florian-olivo-code-unsplash.jpg')"
       }),
       fontFamily: {
-          body: ['Nunito']
+          body: ['Nunito'],
+          header: ['Merriweather']
       },
     },
   },
