@@ -8,8 +8,6 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'hero-image': "url('../images/gabriel-porras-keyboard-unsplash.jpg')",
-        'about-image': "url('../images/josh-rose-building-unsplash.jpg')",
-        'projects-image': "url('../images/florian-olivo-code-unsplash.jpg')"
       }),
       fontFamily: {
           body: ['Nunito'],
